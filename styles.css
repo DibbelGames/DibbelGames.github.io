@@ -30,6 +30,5 @@ img:hover{
   src: url('Fonts/Roboto-Light.ttf');
 }
 body{
-  background-image: url('Images/Background.jpg');
   font-family: myFirstFont;
 }
