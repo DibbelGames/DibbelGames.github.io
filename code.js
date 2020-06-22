@@ -1,30 +1,36 @@
-function homeScreen(){
-    window.location.href = 'index.html';
-}
-
-function Open_FlowyPowy(){
+function FlowyPowy(){
     window.location.href = 'flowypowy.html';
 }
-function Open_TacoCat(){
+function TacoCat(){
     window.location.href = 'tacocat.html';
 }
-function Open_ItchIo(){
+
+function Itch(){
     window.open('https://dibbelgames.itch.io', '_blank');
 }
+function GooglePlay(){
+    window.open('https://play.google.com/store/apps/developer?id=Dibbel+Games&hl=de', '_blank');
+}
+function Youtube(){
+    window.open('https://www.youtube.com/channel/UCp2IGhdDoEM3WAqW6_MP55Q?', '_blank');
+}
+function Twitter(){
+    window.open('https://twitter.com/Dibbel_Games', '_blank');
+}
 
-function Open_GooglePlay(){
-    window.open('https://play.google.com/store/apps/developer?id=Dibbel+Games&gl=DE', '_blank');
+function HomeButton(){
+    window.location.href = 'index.html';
 }
-function Open_SimmerIo(){
-    window.open('https://simmer.io/@DibbelGames/', '_blank');
+function GamesButton(){
+    window.location.href = 'games.html';
+}
+function DownloadsButton(){
+    window.location.href = 'downloads.html';
+}
+function ContactButton(){
+    window.location.href = 'contact.html';
 }
 
-function secret(){
-    window.location.href = 'secret.html';
-}
-function secretHome(){
-    window.location.href = 'secretHome.html';
-}
-function secretGame(){
-    window.location.href = 'secretGame.html';
+function ThankYou(){
+    window.location.href = 'ty.html';
 }
