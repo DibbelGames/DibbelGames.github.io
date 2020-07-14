@@ -34,3 +34,7 @@ function ContactButton(){
 function ThankYou(){
     window.location.href = 'ty.html';
 }
+
+function Secret(){
+    window.location.href = 'snake.html';
+}

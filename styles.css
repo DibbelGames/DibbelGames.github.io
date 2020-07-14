@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+li{
+  list-style: none;
+}
+
 li, a, button{
   font-weight: 300;
   font-size: 20px;
@@ -125,6 +129,19 @@ img:hover{
   transform: translate(-50%, -50%);
 }
 
+.secret{
+  cursor: pointer;
+}
+
+canvas {
+  position:fixed;
+  left:0;
+  right:0;
+  top: 0;
+  bottom: 0;
+  margin:auto;
+  border: 2px solid rgba(151, 149, 149, 1);
+}
 body{
   background-color: #1d1d1d;
   background-image: url('Images/NewBackground.png'); 
